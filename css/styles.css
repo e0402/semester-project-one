@@ -1,0 +1,70 @@
+/*Navigation menu*/
+
+.container-one {
+    display: flex;
+}
+   
+.hamburger-item {
+    margin-left: auto;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 5px;
+}
+
+.hamburger-icon {
+    width: 35px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+nav,
+#hamburger-menu {
+  display: none;
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.87em;
+  font-weight: 800;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(189, 189, 189);
+  padding: 20px;  
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+nav {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 79px;
+  width: auto;
+  bo-shadow: 0.5px 2px 8px 2px rgb(142, 142, 142);
+}
+
+.current-page {
+  text-decoration: underline;
+}
+
+/*Social media*/
+
+.media-icons {
+    width: 40px;
+}
+
+.social-media {
+    display: block;
+    margin: 
+}

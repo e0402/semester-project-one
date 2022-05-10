@@ -1,0 +1,17 @@
+@media only screen and (min-width: 421px) {
+   
+    .headline {
+    font-size: 1.875em;
+   }
+
+   @media only screen and (min-width: 628px) {
+    
+    .headline {
+     font-size: 2.7em;
+     padding: 35px 18.5px 35px 18.5px;
+    }
+
+    .grey-text-box {
+        font-size: 1.03em;
+    }
+
