@@ -3,6 +3,7 @@
     .headline {
     font-size: 1.875em;
    }
+}
 
    @media only screen and (min-width: 628px) {
     
@@ -14,4 +15,5 @@
     .grey-text-box {
         font-size: 1.03em;
     }
+}
 
