@@ -60,10 +60,16 @@ nav {
 /*Social media*/
 
 .media-icons {
-    width: 40px;
+    width: 36.5px;
+    margin: 35px 10px 35px 10px;
+}
+
+.media-icons-two {
+    width: 0px;
+    display: none;
 }
 
 .social-media {
-    display: block;
-    margin: 
+    display: flex;
+    justify-content: center;
 }

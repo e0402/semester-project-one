@@ -1,19 +1,212 @@
-@media only screen and (min-width: 421px) {
-   
-    .headline {
-    font-size: 1.875em;
-   }
-}
-
-   @media only screen and (min-width: 628px) {
+@media only screen and (min-width: 376px) {
     
     .headline {
-     font-size: 2.7em;
-     padding: 35px 18.5px 35px 18.5px;
+    font-size: 7.5vw;
     }
 
     .grey-text-box {
-        font-size: 1.03em;
+        font-size: 4vw;
+    }
+    
+    /*Social media*/
+    
+    .media-icons {
+        width: 9.7vw;
+    }
+
+    .h3-visit-info {
+        font-size: 4.2vw;  
+    }
+    .visit-info-one {
+        font-size: 3.2vw;
+    }
+     
+    .visit-info-two {
+        font-size: 3.2vw;
+    }
+
+    .text-decoration {
+            font-size: 4.8vw;
+    }
+        
+    .learn-more-button {
+        font-size: 3.5vw;    
+    }
+
+    /*Explore section home*/
+
+    .young-person-styling, .teacher-styling, .scientist-styling {
+        font-size: 3.8vw;
+    }
+
+.learn-more-button-two {
+    font-size: 4vw;
+}
+
+    .text-decoration-two {
+        font-size: 5vw;
     }
 }
 
+@media only screen and (min-width: 526px) {
+   
+    .grey-text-box {
+        font-size: 1.31em;
+    }
+
+    .h3-visit-info {
+        font-size: 1.38em;  
+    }
+   
+   .visit-info-one {
+        font-size: 1.052em;
+    }
+
+    .visit-info-two {
+        font-size: 1.052em;
+    }
+
+   .text-decoration {
+            font-size: 1.578em;
+    }
+       
+    .learn-more-button {
+        font-size: 1.15em;    
+    }
+
+    /*Social media*/
+    
+    .media-icons {
+        width: 3.188em;
+    }
+
+  /*Explore section home*/
+
+  .young-person-styling, .teacher-styling, .scientist-styling {
+    font-size: 1.25em;
+}
+
+.learn-more-button-two {
+font-size: 1.05em;
+}
+
+.text-decoration-two {
+    font-size: 1.3em;
+}
+}
+
+@media only screen and (min-width: 729px) {
+    
+    .headline {
+        font-size: 3.41em;
+    }
+
+    .visit-info-grid {
+        max-width: 728px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visit-info-two {
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+ 
+     .headline {
+        font-size: 2.7em;
+        background: #F9F5ED;
+    }
+
+    .white-space {
+        white-space: nowrap;
+    }
+
+    .headline-social-grid {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1.5fr;
+        background: #F9F5ED;
+    }
+    .banner-mobile {
+        display: none;
+    }
+
+    .banner-desktop {
+        display: inline-block;
+    }
+
+    .grey-text-box {
+        margin-left: 0px;
+    }
+
+    .visit-info-grid {
+        display: flex;
+        max-width: 800px;
+        margin: 0px;
+        padding-bottom: 24px;
+        
+    }
+
+    .visit-info-one {
+        
+    }
+
+    .visit-info-two {
+        flex: 100%;
+        max-width: 400px;
+        padding-right: 45px;
+        padding-bottom: 1px;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .media-icons-two {
+        display: unset;
+        width: 36px;
+        
+    }
+
+    .explore-section-home {
+        display: grid;
+        grid-template-columns: 330px 330px 330px;
+        gap: 10px;
+    }
+
+/*Explore section home*/
+
+.young-person-styling, .teacher-styling, .scientist-styling {
+    font-size: 0.75em;
+    height: 170px;
+}
+
+.center-paragraph-three {
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+}
+
+.learn-more-button-two {
+font-size: 0.875em;
+}
+
+.text-decoration-two {
+    font-size: 1.125em;
+}
+
+/*First grid line desktop version*/
+
+.grid-one-desktop {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+
+.margin-top {
+    margin-top: 0px;
+}
+
+}

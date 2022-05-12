@@ -1,0 +1,12 @@
+<svg id="clock-svgrepo-com" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_7" data-name="Group 7">
+    <path id="Path_187" data-name="Path 187" class="cls-1" d="M10,0A10,10,0,1,0,20,10,9.994,9.994,0,0,0,10,0Zm.493,10.414L7.767,13.655a.644.644,0,0,1-.985-.829L9.356,9.765V2.49a.644.644,0,1,1,1.288,0V10h0A.644.644,0,0,1,10.493,10.414Z"/>
+  </g>
+</svg>
