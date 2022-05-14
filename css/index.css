@@ -1,3 +1,6 @@
+.welcome-text-two {
+    display: none;
+}
 .banner-mobile {
 width: 100%;
 max-width: 525px;
@@ -61,7 +64,7 @@ h2 {
     justify-content: center;
 }
 
-.grey-text-box {
+.grey-text-box, .grey-text-box-two {
 margin-top: 0px;
 font-family: "Inter";
 font-style: normal;
@@ -92,7 +95,6 @@ margin-right: auto;
     line-height: 1.9;
     color: #fff;
     padding: 44px 15px 0px 28px;
-    background: #434343;
     margin-bottom: 10px;
     display: grid;
     justify-content: center;
@@ -110,7 +112,6 @@ margin-right: auto;
     line-height: 1.9;
     color: #fff;
     padding: 44px 15px 44px 28px;
-    background: #434343;
     display: grid;
     grid-template-columns: 60% 40%;
     justify-content: center;

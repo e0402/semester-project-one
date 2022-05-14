@@ -14,6 +14,8 @@
         width: 9.7vw;
     }
 
+/*Visit info homepage*/
+
     .h3-visit-info {
         font-size: 4.2vw;  
     }
@@ -120,11 +122,10 @@ font-size: 1.05em;
 
     .visit-info-two {
         justify-content: center;
-        ga: 50px;
     }
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 768px) {
 
     .headline {
     font-size: 3.5em;
@@ -148,26 +149,32 @@ font-size: 1.05em;
 .grey-text-box {
     max-width: 490px;
     font-size: 1.4em;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(124, 124, 124);
 }
 
 .padding-grey-text-box {
-    background: #434343;
-    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     height: 235px;
+    max-width: 768px;
     padding-top: 15px;
 }
 
 .visit-info-grid {
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    max-width: 728px;
-    padding-left: 150px;
-    padding-right: 150px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 690px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 420px;
+}
+
+.margin-top {
+    height: 300px;
+    min-width: 200px;
+}
+
+.visit-info-one {
+
 }
 
     .explore-section-home {
@@ -200,6 +207,9 @@ font-size: 1.05em;
         gap: 20px;
         background: #F9F5ED;
         justify-content: center;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .banner-mobile {
         display: none;
@@ -211,29 +221,32 @@ font-size: 1.05em;
 
     .banner-desktop {
         width: 100%;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
         display: block;
     }
 
-    .grey-text-box {
-        margin-left: 0px;
+    .padding-grey-text-box {
+        display: none;   
     }
-
+    
     .visit-info-grid {
         display: grid;
-        grid-template-column: 60% 40%;
+        grid-template-columns: 30% 70%;
         max-width: 490px;
-        margin: 0px;
-        padding-bottom: 0px;
-        border-style: none;
-        heigh: 0px;
         padding-left: 0px;
         padding-right: 0px;
         font-size: 0.7em;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        height: 244px;
     }
 
-    .visit-info-two {
+    .visit-info-one {
+        height: 247px;
+        margin-top: 6px;
         padding-right: 45px;
-        padding-bottom: 1px;
     }
 
 .visit-info-one, .visit-info-two {
@@ -259,20 +272,21 @@ font-size: 1.05em;
     }
 
     .explore-section-home {
-        height: 0px;
+        margin-top: 0px;
     }
 
 /*Explore section home*/
 
 .young-person-styling, .teacher-styling, .scientist-styling {
     font-size: 0.75em;
-    height: 170px;
+    width: 280px;
+    height: 193px;
 }
 
 .center-paragraph-three {
     margin-left: auto;
     margin-right: auto;
-    width: 290px;
+    widt: 290px;
 }
 
 .learn-more-button-two {
@@ -287,19 +301,40 @@ font-size: 0.875em;
 
 .grid-one-desktop {
    display: grid;
-   grid-template-columns: 466px 900px;
+   grid-template-columns: 1fr 1fr;
    gap: 10px;
-   max-width: 1336px;
-   align-self: start;
+   max-width: 1366px;
+   margin-left: auto;
+   margin-right: auto;
+  
    
+}
+.welcome-text-two {
+    display: unset;
+    width: 500px;
+    
+}
+
+.welcome-text-two p {
+   font-size: 1em;
+   margin-bottom: 2px;
+   
+}
+.welcome-visit-gri {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    
+    
 }
 
 .image-border-one, .image-border-two, .image-border-three {
-    height: 300px;
+    heigh: 300px;
 }
 
 .margin-top {
     margin-top: 0px;
+    
 }
 
 }
