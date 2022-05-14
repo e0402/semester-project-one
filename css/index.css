@@ -216,6 +216,15 @@ h3 {
 
 /*Events section homepage*/
 
+.events-section-home {
+    max-width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+}
+
 .image-width {
 width: 100%;
 display: block;
@@ -237,6 +246,17 @@ display: block;
     padding-bottom: 50px;
 }
 
+
+/*Exhibitions section homepage*/
+
+.exhibitions-section-home {
+    max-width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+}
 
 /*Center text in explore paragraphs home*/
 
@@ -266,6 +286,10 @@ display: block;
     max-width: 525px;
     margin-left: auto;
     margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+    margin-top: 70px;
 }
    
 .text-decoration-two {
