@@ -57,19 +57,3 @@ nav {
   text-decoration: underline;
 }
 
-/*Social media*/
-
-.media-icons {
-    width: 36.5px;
-    margin: 35px 10px 35px 10px;
-}
-
-.media-icons-two {
-    width: 0px;
-    display: none;
-}
-
-.social-media {
-    display: flex;
-    justify-content: center;
-}
