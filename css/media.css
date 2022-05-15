@@ -198,21 +198,13 @@
     /*Explore section homepage*/
 
     .explore-section-home {
-        max-width: 1066px;
+        max-width: 768px;
         display: grid;
-        grid-template-columns:repeat(3, 1fr);
+        grid-template-columns:repeat(2, 1fr);
         gap: 10px;
         margin-top: 70px;
         justify-content: center;
-        font-size: 0.8em;
-    }
-
-    .teacher-styling {
-        min-height: 259px;
-    }
-    
-    .text-align {
-        min-height: 182px;
+        font-siz: 1.7vw;
     }
 
     /*Events section hompage*/
@@ -222,7 +214,7 @@
     }
 
     .events-section-home {
-        max-width: 1066px;
+        max-width: 768px;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
@@ -238,7 +230,7 @@
     /*Exhibitions section homepage*/
 
     .exhibitions-section-home {
-        max-width: 1066px;
+        max-width: 768px;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
@@ -249,10 +241,35 @@
     .teacher-styling {
         min-height: 1px;
   }
-   
 }
+
+@media only screen and (min-width: 1066px) {
+ 
+   .explore-section-home {
+       grid-template-columns: repeat(3, 1fr);
+       max-width: 1066px;
+   }
+
+   .events-section-home {
+    max-width: 1066px;
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+    .exhibitions-section-home {
+    max-width: 1066px;
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media only screen and (min-width: 1366px) {
  
+.grey-text-box-two {
+    width: 479px;
+    padding-top: 72px;
+    padding-bottom: 69px;
+    margin: 0px;
+}
+
     /*Headline section homepage*/
 
     .headline {
@@ -263,18 +280,19 @@
     
     .headline-social-grid {
         display: grid;
-        grid-template-columns: 1fr 5fr 1.2fr;
-        gap: 20px;
+        grid-template-columns: 17% 63% 17%;
         background: #F9F5ED;
-        justify-content: center;
         max-width: 1366px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .margin-left {
-        margin-left: 53px;
-        margin-right: 10px;
+        margin-left: 90px;
+    }
+
+    .margin-right {
+        margin-left: 20px;
     }
 
     /*Logo/menu bar*/
@@ -312,13 +330,15 @@
     .visit-info-grid {
         display: grid;
         grid-template-columns: 30% 70%;
-        max-width: 490px;
+        max-widt: 490px;
+        width: 522px;
         padding-left: 0px;
         padding-right: 0px;
         font-size: 0.7em;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        height: 244px;
+        padding-top: 4px;
+        padding-bottom: 24px;
+        height: 224px;
+        margin: 0px;
     }
 
     .visit-info-one {
@@ -331,6 +351,11 @@
         padding-top: 0px;
     }
 
+    .h3-visit-info {
+        font-size: 1.38em; 
+        margin-bottom: 12px; 
+    }
+
     /*Social media icons homepage*/
 
     .social-media {
@@ -339,8 +364,15 @@
 
     .media-icons-two {
         display: unset;
-        margin-top: 36px;
-        width: 36px;
+        margin-top: 31.5px;
+        width: 34.8px;
+        padding: 6px;
+    }
+
+    .media-icons-three {
+        display: unset;
+        margin-top: 31.2px;
+        width: 34px;
         padding: 5px;
     }
 
@@ -355,8 +387,8 @@
 
     .young-person-styling, .teacher-styling, .scientist-styling {
         font-size: 0.75em;
-        width: 280px;
-        height: 191px;
+        width: 264px;
+        height: 204px
     }
 
     .center-paragraph-three {
@@ -373,7 +405,7 @@
     }
 
     .image-border-one, .image-border-two, .image-border-three {
-        height: 451px;
+        height: 454px;
     }
 
     /*First grid line desktop version*/
@@ -390,7 +422,6 @@
 
     .welcome-text-two {
         display: unset;
-        width: 500px;
     }
 
     .welcome-text-two p {
@@ -401,9 +432,6 @@
     .welcome-visit-gri {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
-        
-        
     }
 
     .margin-top {
@@ -427,7 +455,7 @@
     .events-section-home {
         max-width: 1366px;
         grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
+        gap: 10px;
     }
 
     .events-styling {
@@ -439,10 +467,37 @@
       .exhibitions-section-home {
         max-width: 1366px;
         grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
+        gap: 10px;
     }
 
     .paragraph-padding {
-        padding-bottom: 2px;
+        padding-bottom: 28px;
+        max-widt: 360px;
+        line-heigh: 2.2;
+        widt: 370px;
+    }
+
+    /*Visit us page*/
+
+    .visit-page-grid {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        font-size: 1.3em;
+        margin-top: 40px;
+        gap: 0px;
+    }
+
+    .visit-section-one, .visit-section-two {
+        max-width: 500px;  
+        gap: 10px;
+    } 
+
+    .visit-section-two {
+        margin-to: 20px;
+    } 
+
+    h2{
+        margin-bottom: 40px;
     }
 }

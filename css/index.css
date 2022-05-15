@@ -56,6 +56,11 @@ h2 {
     display: none;
 }
 
+.media-icons-three {
+    width: 0px;
+    display: none;
+}
+
 .social-media {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
