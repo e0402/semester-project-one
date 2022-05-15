@@ -1,20 +1,22 @@
 @media only screen and (min-width: 376px) {
     
     .headline {
-    font-size: 7.5vw;
+        font-size: 7.5vw;
     }
 
-    .grey-text-box {
-        font-size: 4vw;
-    }
-    
     /*Social media*/
     
     .media-icons {
         width: 9.7vw;
     }
 
-/*Visit info homepage*/
+    /*Welcome message homepage*/
+
+    .grey-text-box {
+        font-size: 4vw;
+    }
+
+    /*Visit info homepage*/
 
     .h3-visit-info {
         font-size: 4.2vw;  
@@ -28,7 +30,7 @@
     }
 
     .text-decoration {
-            font-size: 4.8vw;
+        font-size: 4.8vw;
     }
         
     .learn-more-button {
@@ -63,6 +65,16 @@
     .social-media {
         grid-template-columns: repeat(6, 57px);
     }
+     
+    /*Logo/menu bar*/
+
+     .container-one {
+        max-width: 526px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Visit info homepage*/
 
     .visit-info-grid {
         max-width: 525px;
@@ -77,7 +89,7 @@
         font-size: 1.38em;  
     }
    
-   .visit-info-one {
+    .visit-info-one {
         font-size: 1.052em;
     }
 
@@ -85,8 +97,8 @@
         font-size: 1.052em;
     }
 
-   .text-decoration {
-            font-size: 1.578em;
+    .text-decoration {
+        font-size: 1.578em;
     }
        
     .learn-more-button {
@@ -101,38 +113,43 @@
 
   /*Explore section home*/
 
-  .young-person-styling, .teacher-styling, .scientist-styling {
-    font-size: 1.25em;
+    .young-person-styling, .teacher-styling, .scientist-styling {
+        font-size: 1.25em;
     }
 
     .learn-more-button-two {
-    font-size: 1.05em;
+        font-size: 1.05em;
     }
 
     .text-decoration-two {
         font-size: 1.3em;
     }
-    }
+}
 
 @media only screen and (min-width: 729px) {
     
-    .headlin {
-        font-size: 3.41em;
-    }
-
     .visit-info-two {
         justify-content: center;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    
+     
     .headline {
-    font-size: 3.5em;
-    text-align: center;
-    background: #F9F5ED;
-    max-width: 1034px;
+        font-size: 3.5em;
+        text-align: center;
+        background: #F9F5ED;
+        max-width: 1034px;
     }
+
+    /*Logo/menu bar*/
+
+    .container-one {
+        min-width: 768px; 
+        max-width: 1066px;
+    }
+
+    /*Banner images*/
 
     .banner-mobile {
         display: none;
@@ -145,6 +162,8 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    /*Welcome message homepage*/
 
     .grey-text-box {
         max-width: 490px;
@@ -159,6 +178,8 @@
         padding-top: 15px;
         background: #434343;
     }
+
+    /*Visit info homepage*/
 
     .visit-info-grid {
         display: grid;
@@ -204,7 +225,6 @@
         max-width: 1066px;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        font-siz: 0.7em;
     }
 
     .events-styling {
@@ -226,22 +246,19 @@
 
 @media only screen and (min-width: 825px) {
  
-  .teacher-styling {
-      min-height: 1px;
+    .teacher-styling {
+        min-height: 1px;
   }
    
 }
 @media only screen and (min-width: 1366px) {
  
-     .headline {
+    /*Headline section homepage*/
+
+    .headline {
         font-size: 2.5em;
         background: #F9F5ED;
         text-align: center;
-    }
-
-    .margin-left {
-        margin-left: 53px;
-        margin-right: 10px;
     }
     
     .headline-social-grid {
@@ -254,6 +271,20 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .margin-left {
+        margin-left: 53px;
+        margin-right: 10px;
+    }
+
+    /*Logo/menu bar*/
+
+    .container-one {
+        max-width: 1366px;
+    }
+
+   /*Banner images homepage*/
+
     .banner-mobile {
         display: none;
     }
@@ -270,10 +301,14 @@
         display: block;
     }
 
+    /*Welcome message homepage*/
+
     .padding-grey-text-box {
         display: none;   
     }
     
+    /*Visit info homepage*/
+
     .visit-info-grid {
         display: grid;
         grid-template-columns: 30% 70%;
@@ -293,14 +328,10 @@
     }
 
     .visit-info-one, .visit-info-two {
-    padding-top: 0px;
-    }
-
-    .padding-grey-text-box {
-        background: #ffffff;
-        heigh: 0px;
         padding-top: 0px;
     }
+
+    /*Social media icons homepage*/
 
     .social-media {
         display: none;
@@ -311,7 +342,6 @@
         margin-top: 36px;
         width: 36px;
         padding: 5px;
-        
     }
 
     /*Explore section home*/
@@ -343,31 +373,29 @@
     }
 
     .image-border-one, .image-border-two, .image-border-three {
-        height: 300px;
+        height: 451px;
     }
 
     /*First grid line desktop version*/
 
     .grid-one-desktop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    max-width: 1366px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    
-    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
     }
+
     .welcome-text-two {
         display: unset;
         width: 500px;
-        
     }
 
     .welcome-text-two p {
-    font-size: 1em;
-    margin-bottom: 2px;
+        font-size: 1em;
+        margin-bottom: 2px;
     }
 
     .welcome-visit-gri {
@@ -383,7 +411,7 @@
     }
 
     .margin {
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .text-align {
@@ -400,7 +428,6 @@
         max-width: 1366px;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
-        font-siz: 0.7em;
     }
 
     .events-styling {
@@ -413,5 +440,9 @@
         max-width: 1366px;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
+    }
+
+    .paragraph-padding {
+        padding-bottom: 2px;
     }
 }

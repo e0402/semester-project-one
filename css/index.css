@@ -2,11 +2,11 @@
     display: none;
 }
 .banner-mobile {
-width: 100%;
-max-width: 525px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+    width: 100%;
+    max-width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .banner-tablet {
@@ -18,20 +18,20 @@ display: block;
 }
 
 .headline {
-font-family: "Bungee Inline";
-font-style: normal;
-font-weight: normal;
-font-size: 1.775em;
-font-weight: 400;
-line-height: 1.5;
-text-align: center;
-padding: 17px 18.5px 17px 18.5px;
-background-color: #E7E8E8;
-margin-top: 7px;
-margin-bottom: 0px;
-max-width: 488px;
-margin-left: auto;
-margin-right: auto;
+    font-family: "Bungee Inline";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.775em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    padding: 17px 18.5px 17px 18.5px;
+    background-color: #E7E8E8;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    max-width: 488px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -65,20 +65,20 @@ h2 {
 }
 
 .grey-text-box, .grey-text-box-two {
-margin-top: 0px;
-font-family: "Inter";
-font-style: normal;
-font-weight: normal;
-font-size: 0.9em;
-font-weight: 700;
-line-height: 1.9;
-color: #fff;
-padding: 44px 15px 44px 28px;
-background: #434343;
-text-align: left;
-max-width: 482px;
-margin-left: auto;
-margin-right: auto;
+    margin-top: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1.9;
+    color: #fff;
+    padding: 44px 15px 44px 28px;
+    background: #434343;
+    text-align: left;
+    max-width: 482px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .visit-info-grid {
@@ -225,10 +225,10 @@ h3 {
     gap: 35px;
 }
 
-.image-width {
-width: 100%;
-display: block;
-}
+    .image-width {
+    width: 100%;
+    display: block;
+    }
 
 .events-styling, .exhibitions-styling {
     background: #434343;
