@@ -520,4 +520,15 @@
     a {
         font-size: 1.1em;
     }
+
+    /*About us page*/
+
+    .top-image-four {
+        display: none;
+    }
+    .large-image {
+        display: unset;
+        max-width: 500px;
+        margin-top: 58px;
+    }
 }
