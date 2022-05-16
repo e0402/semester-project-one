@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Community Science Museum, a local museum dedicated to making science accesible to all, especially young people" />
+    <title>Community Science Museum | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/visit.css" rel="stylesheet" />
+    <link href="css/about-us.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <section class="container-one">
+        <div class="logo-item">
+           <a href="index.html"><img src="images/logo.jpeg" alt="Museum logo" class="logo" /></a>
+        </div>
+        <div class="hamburger-item">    
+            <input type="checkbox" id="hamburger-menu">
+            <label for="hamburger-menu"><img src="images/hamburger-icon.svg" alt="Hamburger menu" class="hamburger-icon" /></label>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="visit.html">Visit</a>
+                <a href="events-and-exhibitions.html">Events & Exhibitions</a>
+                <a href="get-involved.html">Get Involved</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact.html" class="current-page">Contact</a>
+            </nav>
+        </div>
+    </section>
+</header>
+<main class="visit-main-grid">
+    <section class="visit-section-one">  
+        <div>
+            <img src="images/top-image-four-mobile.jpg" alt="A large overview of the entrance hall seen from top of the staircase" class="top-image-four" />
+            <h2>Contact us</h2>
+            <h3>Questions/feedback</h3>
+            <p>Do you have any questions for us or any feedback you would like to share? Please don't hesitate to contact us using either the form or the contact information provided below. Here at the Community Science museum we are happy to assist you and are committed to making sure that we provide the best experience possible for our visitors.
+            </p>
+            <h3>Book a tour</h3>
+            <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+            </p>
+            <p><span>Phone:</span> 12345678<br><span>Email:</span> info@sccenter.com<br></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h3>Please fill out all the required fields below:</h3>
+            <form action="submit.php" method="post">
+                <fieldset class="contact-container">
+                        <label for="first-name"><span>First name*</span></label>
+                        <input type="text" name="first-name" id="first-name" class="form-input">
+                        <label for="last-name"><span>Last name*</span></label>
+                        <input type="text" name="last-name" id="last-name" class="form-input">
+                        <label for="email"><span>Email address*</span></label>
+                        <input type="email" name="email" id="email" class="form-input">
+                        <label for="topic"><span>Topic*</span></label>
+                        <input type="text" name="topic" id="topic" class="form-input">
+                        <p><label for="contact-message" class="form-text_bold"><span>Message*</span></label></p>
+                        <textarea name="contact-message" id="contact-message"></textarea>
+                        <p><input type="submit" value="Submit" class="checkout-button"></p>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</main>    
+</body>
+</html>
