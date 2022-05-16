@@ -133,6 +133,14 @@
     .visit-main-grid {
         font-size: 1.35em;
     }
+
+    a {
+        font-size: 1em;
+    }
+
+    .black-font {
+        font-size: 1.02em;
+    }
 }
 
 @media only screen and (min-width: 729px) {
@@ -500,17 +508,16 @@
         margin-right: auto;
     }
 
-    .visit-section-one {
+    .visit-section-one, .visit-section-two {
         max-width: 500px;  
-        gap: 20px;
+        gap: 10px;
     } 
-
-    .visit-section-two {
-        max-width: 500px;  
-        ga: 100px;
-    }
 
     h2{
         margin-bottom: 40px;
+    }
+
+    a {
+        font-size: 1.1em;
     }
 }
