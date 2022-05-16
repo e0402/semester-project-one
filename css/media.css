@@ -54,6 +54,9 @@
 
 @media only screen and (min-width: 526px) {
    
+
+    /*Homepage*/
+
     .headline {
         font-size: 2.5em;
     }
@@ -111,7 +114,7 @@
         width: 3.188em;
     }
 
-  /*Explore section home*/
+    /*Explore section*/
 
     .young-person-styling, .teacher-styling, .scientist-styling {
         font-size: 1.25em;
@@ -123,6 +126,12 @@
 
     .text-decoration-two {
         font-size: 1.3em;
+    }
+
+    /*Visit us page*/
+
+    .visit-main-grid {
+        font-size: 1.35em;
     }
 }
 
@@ -479,23 +488,27 @@
 
     /*Visit us page*/
 
-    .visit-page-grid {
+    .visit-main-grid {
         display: grid;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin-top: 40px;
         gap: 0px;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .visit-section-one, .visit-section-two {
+    .visit-section-one {
         max-width: 500px;  
-        gap: 10px;
+        gap: 20px;
     } 
 
     .visit-section-two {
-        margin-to: 20px;
-    } 
+        max-width: 500px;  
+        ga: 100px;
+    }
 
     h2{
         margin-bottom: 40px;
