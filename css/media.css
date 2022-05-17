@@ -415,7 +415,7 @@
 
     .media-icons-two {
         display: unset;
-        margin-top: 31.5px;
+        margin-top: 30px;
         width: 34.8px;
         padding: 6px;
     }
@@ -568,9 +568,26 @@
 
     /*Contact form*/
 
-    .contact-container {
-        height: 800px;
-        max-width: 500px;
+    .contact-container-grid {
+        heigh: 800px;
+        width: 560px;
         margi: 0px;
       }
+
+      label {
+          width: 245px;
+      }
+      
+    .grey-background {
+    width: 350px;
+    margin-botto: 80px;
+    }
+     
+    .max-width-contact {
+        max-width: 560px;
+    }
+
+    .margin-top-contact {
+        margin-top: 22px;
+    }
 }
