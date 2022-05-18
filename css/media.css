@@ -140,6 +140,12 @@
     .black-font {
         font-size: 1.02em;
     }
+
+    /*About us page*/
+
+    .elements-icons {
+        width: 70px;
+    }
 }
 
 @media only screen and (min-width: 729px) {
@@ -659,13 +665,21 @@
         background-repeat: no-repeat;
     }
 
-    .vertical-line-one {
+    .vertical-line-one, .vertical-line-two {
         background-image: url("../images/mid-line.svg");
         background-attachment: sticky;
-        background-size: 1366px;
-        background-position-y: 70%;
-        background-position-x: 50%;
         background-repeat: no-repeat;
+    }
+
+    .vertical-line-one {
+        background-position-y: 65%;
+        background-position-x: 50%;
+    }
+
+    .vertical-line-two {
+        background-position-y: 160%;
+        background-position-x: 50%;
+        background-siz: 300px;
     }
 
     .spacing-homepage {
@@ -687,5 +701,15 @@
 
     .additional-gap {
         margin-top: 55px;
+    }
+
+    .space-above-image {
+        margin-top: 0px;
+    }
+
+    /*About us page*/
+
+    .space-between-images {
+        margin-top: 65px;
     }
 }

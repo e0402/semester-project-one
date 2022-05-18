@@ -6,3 +6,10 @@ display: none;
     width: 100%;
     max-width: 728px;
 }
+
+.elements-icons {
+    width: 13vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
