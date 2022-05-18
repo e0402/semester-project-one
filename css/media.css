@@ -72,7 +72,6 @@
     /*Logo/menu bar*/
 
      .container-one {
-        max-width: 526px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -180,6 +179,16 @@
         margin-right: auto;
     }
 
+    .banner-mobile-two {
+        display: none;
+    }
+
+    .banner-desktop-two {
+        display: block;
+    }
+
+
+
     /*Welcome message homepage*/
 
     .grey-text-box {
@@ -255,8 +264,37 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-}
 
+    /*Background icons/images*/
+
+    .explore-section-home {
+        background-image: url("../images/brain-light-bulb.svg");
+    }
+    
+    .events-section-home {
+    background-image: url("../images/chemical.svg");
+    }
+
+    .exhibitions-section-home {
+    background-image: url("../images/computer.svg");
+    }
+
+    .explore-section-home, .events-section-home {
+    background-size: 230px;
+    background-attachment: sticky;
+    background-position-y: 83%;
+    background-position-x: 88%;
+    background-repeat: no-repeat;
+    }
+
+    .exhibitions-section-home {
+    background-size: 330px;
+    background-attachment: sticky;
+    background-position-y: 83%;
+    background-position-x: 95%;
+    background-repeat: no-repeat;
+    }
+}
 @media only screen and (min-width: 825px) {
  
     .teacher-styling {
@@ -283,6 +321,10 @@
     padding-top: 20px;
   }
 
+  .padding-top {
+      padding-top: 1.5px;
+  }
+
   nav a {
     display: inline;
     padding: 15px;
@@ -307,6 +349,12 @@
     max-width: 1066px;
     grid-template-columns: repeat(3, 1fr);
     }
+
+     /*Background icons/images*/
+
+     .explore-section-home, .events-section-home, .exhibitions-section-home {
+         background-image: none;
+     }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -331,7 +379,6 @@
         display: grid;
         grid-template-columns: 17% 63% 17%;
         background: #F9F5ED;
-        max-width: 1366px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -347,7 +394,8 @@
     /*Logo/menu bar*/
 
     .container-one {
-        max-width: 1366px;
+        max-width: none;
+        width: 100%;
     }
 
    /*Banner images homepage*/
@@ -362,10 +410,10 @@
 
     .banner-desktop {
         width: 100%;
-        max-width: 1366px;
         margin-left: auto;
         margin-right: auto;
         display: block;
+        margin-bottom: 40px;
     }
 
     /*Welcome message homepage*/
@@ -494,7 +542,7 @@
     }
 
     .text-align {
-        min-height: 0px;
+        min-height: none;
     }
 
     /*Events section hompage*/
@@ -513,6 +561,13 @@
         height: 300px;
     }
 
+    /*Explore section - events & exhibitions*/
+
+    .explore-size {
+        width: 347px;
+        height: ;
+    }
+
     /*Exhibitions section homepage*/
 
       .exhibitions-section-home {
@@ -522,7 +577,7 @@
     }
 
     .paragraph-padding {
-        padding-bottom: 28px;
+        padding-bottom: 2px;
         max-widt: 360px;
         line-heigh: 2.2;
         widt: 370px;
@@ -570,7 +625,7 @@
 
     .contact-container-grid {
         heigh: 800px;
-        width: 560px;
+        
         margi: 0px;
       }
 
@@ -580,7 +635,8 @@
       
     .grey-background {
     width: 350px;
-    margin-botto: 80px;
+    margin-top: 15px;
+    margin-bottom: 17px;
     }
      
     .max-width-contact {
@@ -589,5 +645,47 @@
 
     .margin-top-contact {
         margin-top: 22px;
+        max-widt: 500px;
+    }
+
+    /*Background images/icons*/
+
+    .horizontal-lines {
+        background-image: url("../images/horizontal-line.svg"), url("../images/horizontal-line.svg");
+        background-size: 1366px;
+        background-attachment: sticky;
+        background-position-y: 40%, 69.6%;
+        background-position-x: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .vertical-line-one {
+        background-image: url("../images/mid-line.svg");
+        background-attachment: sticky;
+        background-size: 1366px;
+        background-position-y: 70%;
+        background-position-x: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .spacing-homepage {
+        margin-top: 200px;
+    }
+
+    .gift-background-image {
+        background-image: url("../images/gift-icon.svg");
+        background-attachment: sticky;
+        background-size: 140px;
+        background-position-y: 89%;
+        background-position-x: 37%;
+        background-repeat: no-repeat;
+    }
+
+    .space-gift-image {
+        margin-top: 100px;
+    }
+
+    .additional-gap {
+        margin-top: 55px;
     }
 }

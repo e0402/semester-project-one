@@ -1,3 +1,5 @@
+    /*Images and banners*/    
+    
     .top-image {
         width: 100%;
         margin-left: auto;
@@ -5,7 +7,10 @@
         display: block;
     }
 
-    
+    .banner-desktop-two {
+        display: none;
+    }
+
     /*Icons*/
 
     .calendar-icon {
