@@ -1,5 +1,7 @@
 @media only screen and (min-width: 376px) {
     
+    /*Font sizes start*/
+
     .headline {
         font-size: 7.5vw;
     }
@@ -21,14 +23,10 @@
     .h3-visit-info {
         font-size: 4.2vw;  
     }
-    .visit-info-one {
+    .visit-info-one, .visit-info-two {
         font-size: 3.2vw;
     }
-     
-    .visit-info-two {
-        font-size: 3.2vw;
-    }
-
+    
     .text-decoration {
         font-size: 4.8vw;
     }
@@ -37,9 +35,11 @@
         font-size: 3.5vw;    
     }
 
+    /*Font sizes end*/
+
     /*Explore section home*/
 
-    .young-person-styling, .teacher-styling, .scientist-styling {
+    .young-person-styling, .teacher-styling, .scientist-styling, .events-styling, .exhibitions-styling {
         font-size: 3.8vw;
     }
 
@@ -54,7 +54,6 @@
 
 @media only screen and (min-width: 526px) {
    
-
     /*Homepage*/
 
     .headline {
@@ -91,11 +90,7 @@
         font-size: 1.38em;  
     }
    
-    .visit-info-one {
-        font-size: 1.052em;
-    }
-
-    .visit-info-two {
+    .visit-info-one,.visit-info-two {
         font-size: 1.052em;
     }
 
@@ -115,7 +110,7 @@
 
     /*Explore section*/
 
-    .young-person-styling, .teacher-styling, .scientist-styling {
+    .young-person-styling, .teacher-styling, .scientist-styling, .events-styling, .exhibitions-styling {
         font-size: 1.25em;
     }
 
@@ -167,7 +162,6 @@
     /*Logo/menu bar*/
 
     .container-one {
-        min-width: 768px; 
         max-width: 1066px;
     }
 
@@ -184,16 +178,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    .banner-mobile-two {
-        display: none;
-    }
-
-    .banner-desktop-two {
-        display: block;
-    }
-
-
 
     /*Welcome message homepage*/
 
@@ -240,23 +224,22 @@
         gap: 10px;
         margin-top: 70px;
         justify-content: center;
-        font-siz: 1.7vw;
+    }
+
+    .min-height-explore-home {
+        min-height: 190px;
     }
 
     /*Events section hompage*/
 
     .min-height-paragraph {
-        min-height: 190px;
+        min-height: 342px;
     }
 
     .events-section-home {
         max-width: 768px;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-    }
-
-    .events-styling {
-        height: 340px;
     }
 
     .margin-bottom {
@@ -300,6 +283,30 @@
     background-position-x: 95%;
     background-repeat: no-repeat;
     }
+
+    /*Events and exhbitions page*/
+
+    .events-section-events-page, .exhibitions-section-events-page {
+        max-width: 768px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .events-section-events-page {
+        margin-bottom: 150px;
+    }
+
+    .explore-section-events-page {
+        max-width: 768px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 100px;
+        margin-bottom: 180px;
+        justify-content: center;
+    }
 }
 @media only screen and (min-width: 825px) {
  
@@ -339,28 +346,40 @@
     border-style: none;
   }
 
+  /*Logo/menu bar*/
+
+  .container-one {
+    max-width: 1365px;
+}
+
+  /*Banner images*/
+
+    .banner-mobile-two {
+        display: none;
+    }
+
+    .banner-desktop-two {
+        display: block;
+    }
+
 /*Explore section*/
     
-   .explore-section-home {
+   .explore-section-home, .events-section-home, .exhibitions-section-home  {
        grid-template-columns: repeat(3, 1fr);
        max-width: 1066px;
    }
-
-   .events-section-home {
-    max-width: 1066px;
-    grid-template-columns: repeat(3, 1fr);
-    }
-
-    .exhibitions-section-home {
-    max-width: 1066px;
-    grid-template-columns: repeat(3, 1fr);
-    }
 
      /*Background icons/images*/
 
      .explore-section-home, .events-section-home, .exhibitions-section-home {
          background-image: none;
      }
+
+     /*Events and exhibitions sections homepage*/
+
+     .min-height-paragraph, .min-height-paragraph-two {
+        min-height: 381px;
+     }     
 }
 
 @media only screen and (min-width: 1366px) {
@@ -491,9 +510,12 @@
     }
 
     .young-person-styling, .teacher-styling, .scientist-styling {
-        font-size: 0.75em;
         width: 264px;
         height: 204px
+    }
+
+    .young-person-styling, .teacher-styling, .scientist-styling, .events-styling, .exhibitions-styling {
+        font-size: 0.75em;
     }
 
     .center-paragraph-three {
@@ -511,6 +533,10 @@
 
     .image-border-one, .image-border-two, .image-border-three {
         height: 454px;
+    }
+
+    .min-height-explore-home {
+        min-height: 0px;
     }
 
     /*First grid line desktop version*/
@@ -567,11 +593,21 @@
         height: 300px;
     }
 
+    
+     /*Events and exhibitions sections homepage*/
+
+     .min-height-paragraph-two {
+        min-height: 170px;
+     } 
+
+     .font-increase-homepage {
+        font-size: 0.9em;
+    }
+
     /*Explore section - events & exhibitions*/
 
     .explore-size {
         width: 347px;
-        height: ;
     }
 
     /*Exhibitions section homepage*/
@@ -584,9 +620,6 @@
 
     .paragraph-padding {
         padding-bottom: 2px;
-        max-widt: 360px;
-        line-heigh: 2.2;
-        widt: 370px;
     }
 
     /*Visit us page*/
@@ -616,24 +649,17 @@
         font-size: 1.1em;
     }
 
-    /*About us page*/
+      /*Events and exhbitions page*/
 
-    .top-image-four {
-        display: none;
+      .events-section-events-page, .exhibitions-section-events-page {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .large-image {
-        display: unset;
-        max-width: 500px;
-        margin-top: 58px;
+
+    .explore-section-events-page {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /*Contact form*/
-
-    .contact-container-grid {
-        heigh: 800px;
-        
-        margi: 0px;
-      }
 
       label {
           width: 245px;
@@ -641,8 +667,8 @@
       
     .grey-background {
     width: 350px;
-    margin-top: 15px;
-    margin-bottom: 17px;
+    margin-top: 9px;
+    margin-bottom: 9px;
     }
      
     .max-width-contact {
@@ -651,7 +677,7 @@
 
     .margin-top-contact {
         margin-top: 22px;
-        max-widt: 500px;
+        height: 928px;
     }
 
     /*Background images/icons*/
@@ -660,7 +686,7 @@
         background-image: url("../images/horizontal-line.svg"), url("../images/horizontal-line.svg");
         background-size: 1366px;
         background-attachment: sticky;
-        background-position-y: 40%, 69.6%;
+        background-position-y: 39%, 70.4%;
         background-position-x: 50%;
         background-repeat: no-repeat;
     }
@@ -677,9 +703,8 @@
     }
 
     .vertical-line-two {
-        background-position-y: 160%;
+        background-position-y: 147%;
         background-position-x: 50%;
-        background-siz: 300px;
     }
 
     .spacing-homepage {
@@ -696,7 +721,7 @@
     }
 
     .space-gift-image {
-        margin-top: 100px;
+        margin-top: 121px;
     }
 
     .additional-gap {
@@ -709,7 +734,16 @@
 
     /*About us page*/
 
+    .top-image-four {
+        display: none;
+    }
+    .large-image {
+        display: unset;
+        max-width: 500px;
+        margin-top: 58px;
+    }
+
     .space-between-images {
-        margin-top: 65px;
+        margin-top: 69px;
     }
 }

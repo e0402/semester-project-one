@@ -284,14 +284,3 @@ h3 {
     padding-top: 20px;
 }
 
-.young-person-styling, .teacher-styling, .scientist-styling {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.9em;
-    font-weight: 700;
-    line-height: 1.9;
-    color: #fff;
-    padding-bottom: 50px;
-}
-

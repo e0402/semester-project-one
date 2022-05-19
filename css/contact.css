@@ -70,11 +70,15 @@ img {
   }
 
   .checkout-button {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9em;
+      font-weight: 700;
       background: #434343;
       color: #fff;
-      padding: 10px 20px;
       border-radius: 10px;
-      width: 120px;
+      width: 130px;
   }
 
   input {
@@ -109,5 +113,4 @@ img {
 .margin-top-contact {
     height: 970px;
 }
-
 

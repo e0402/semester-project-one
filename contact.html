@@ -52,48 +52,46 @@
             <p><span>Phone:</span> 12345678<br><span>Email:</span> info@sccenter.com<br></p>
     </section>
     <section class="visit-section-two margin-top-contact">
-            <h3>Please fill out all the required fields below:</h3>
-                <fieldset class="contact-container-grid">
-                        <div class="contact-sub-grid-one">
-                            <div>     
-                                <label for="first-name"><span>First name*</span></label>
-                            </div>
-                            <div class="margin-right">  
-                                <label for="last-name"><span>Last name*</span></label>
-                            </div>
-                            <div class="margin-first-name">
-                                <input type="text" name="first-name" id="first-name">
-                            </div>
-                            <div class="margin-last-name">    
-                                <input type="text" name="last-name" id="last-name">
-                            </div>
-                        </div>
-                        <div class="contact-sub-grid-two">
-                            <div class="margin-one">
-                                <label for="email"><span>Email address*</span></label>
-                            </div>    
-                            <div>    
-                                <input type="email" name="email" id="email">
-                            </div>
-                            <div class="margin-two">    
-                                <label for="topic"><span>Topic*</span></label>
-                            </div>    
-                            <div>    
-                                <input type="text" name="topic" id="topic">
-                            </div>
-                            <div>     
-                                <p><label for="contact-message"><span>Message*</span></label></p>
-                            </div>    
-                            <div>    
-                                <textarea name="contact-message" id="contact-message"></textarea>
-                            </div>
-                            <div class="center-button">     
-                                <p><input type="submit" value="Submit" class="checkout-button"></p>
-                            </div>
-                        </div>    
-                </fieldset>
-            </form>
-        </div>
+        <h3 id="contact-form">Please fill out all the required fields below:</h3>
+        <form action="submit-contact-form.php" method="post" class="contact-container-grid">
+            <div class="contact-sub-grid-one">
+                <div>     
+                    <label for="first-name"><span>First name*</span></label>
+                </div>
+                <div class="margin-right">  
+                    <label for="last-name"><span>Last name*</span></label>
+                </div>
+                <div class="margin-first-name">
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="margin-last-name">    
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+            </div>
+            <div class="contact-sub-grid-two">
+                <div class="margin-one">
+                    <label for="email"><span>Email address*</span></label>
+                </div>    
+                <div>    
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="margin-two">    
+                    <label for="topic"><span>Topic*</span></label>
+                </div>    
+                <div>    
+                    <input type="text" name="topic" id="topic">
+                </div>
+                <div>     
+                    <p><label for="contact-message"><span>Message*</span></label></p>
+                </div>    
+                <div>    
+                    <textarea name="contact-message" id="contact-message"></textarea>
+                </div>
+                <div class="center-button">     
+                    <input type="submit" value="Submit" class="checkout-button">
+                </div>
+            </div>    
+        </form>
     </section>
 </main>    
 </body>
