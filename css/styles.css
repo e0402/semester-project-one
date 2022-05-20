@@ -78,6 +78,15 @@ span {
   font-weight: 700;
 }
 
+.font-type {
+  font-family: "Inter";
+  line-height: 1.9;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
 /*Explore section styling*/
 
 .young-person-styling, .teacher-styling, .scientist-styling {
@@ -89,4 +98,73 @@ span {
   line-height: 1.9;
   color: #fff;
   padding-bottom: 50px;
+}
+
+/*Newsletter*/
+
+.newsletter-icon {
+  width: 40px;
+  margin-bottom: -6px;
+  margin-left: 10px;
+}
+
+.cta-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9em;
+  font-weight: 700;
+  background: #434343;
+  color: #fff;
+  border-radius: 10px;
+  width: 130px;
+}
+
+.cta-button-two {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9em;
+  font-weight: 700;
+  background: #434343;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15% 25% 15% 25%;
+}
+
+.newsletter-input {
+  height: 93%;
+  width: 100%;
+}
+
+.newsletter-grid {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  max-width: 400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 7%;
+  font-size: 4.1vw;
+}
+
+.center-subscribe-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-sub-grid-one {
+  display: grid;
+}
+
+.newsletter-sub-grid-two {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: 60% 40%;
+}
+
+.newsletter-background {
+  background: #EDEDED;
+  width: 100%;
 }
