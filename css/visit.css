@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 .top-image {
     width: 100%;
     margin-left: auto;
@@ -56,9 +58,6 @@ h3 {
 }
 
 .visit-main-grid {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
     font-weight: 400;
     font-size: 4.1vw;
     line-height: 1.9;
@@ -73,16 +72,13 @@ h3 {
 }
 
 .background-color {
-    background: #434343;
-    color: #fff;
+    background: var(--background-styling);
+    color: var(--white-text);
     padding: 20px 30px;
 }
 
 a {
-    color: #fff;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
+    color: var(--white-text);
     font-weight: 400;
     font-size: 3.3vw;
 }

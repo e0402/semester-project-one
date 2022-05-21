@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 @media only screen and (min-width: 376px) {
     
     /*Font sizes start*/
@@ -142,6 +144,11 @@
         width: 70px;
     }
 
+    /*Events and exhibitions page*/
+    .font-size-links {
+        font-size: 0.95em;
+    }
+
     /*Newsletter*/
 
     .newsletter-grid {
@@ -169,7 +176,7 @@
     .headline {
         font-size: 3.5em;
         text-align: center;
-        background: #F9F5ED;
+        background: var(--headline-background);
         max-width: 1034px;
     }
 
@@ -206,13 +213,12 @@
         height: 235px;
         max-width: 1066px;
         padding-top: 15px;
-        background: #434343;
+        background: var(--background-styling);
     }
 
     /*Visit info homepage*/
 
     .visit-info-grid {
-        display: grid;
         grid-template-columns: 30% 70%;
         max-width: 690px;
         padding-left: 40px;
@@ -233,7 +239,6 @@
 
     .explore-section-home {
         max-width: 768px;
-        display: grid;
         grid-template-columns:repeat(2, 1fr);
         gap: 10px;
         margin-top: 70px;
@@ -302,11 +307,8 @@
 
     .events-section-events-page, .exhibitions-events-page-one, .exhibitions-events-page-two {
         max-width: 768px;
-        display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .events-section-events-page {
@@ -410,14 +412,13 @@
 
     .headline {
         font-size: 2.5em;
-        background: #F9F5ED;
         text-align: center;
     }
     
     .headline-social-grid {
         display: grid;
         grid-template-columns: 17% 63% 17%;
-        background: #F9F5ED;
+        background: var(--headline-background);
         margin-left: auto;
         margin-right: auto;
     }
@@ -464,7 +465,6 @@
     /*Visit info homepage*/
 
     .visit-info-grid {
-        display: grid;
         grid-template-columns: 30% 70%;
         padding-left: 0px;
         padding-right: 0px;
@@ -572,11 +572,6 @@
     .welcome-text-two p {
         font-size: 1em;
         margin-bottom: 2px;
-    }
-
-    .welcome-visit-gri {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
     }
 
     .margin-top {
@@ -714,6 +709,10 @@
 
     .calendar-icon-width {
         width: 39px;
+    }
+
+    .font-size-links {
+        font-size: 0.97em;
     }
 
     /*Contact form*/

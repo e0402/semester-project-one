@@ -1,3 +1,14 @@
+@import "imports/variables.css";
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: "Bungee Inline";
+}
+
 /*Navigation menu*/
 
 .container-one {
@@ -28,9 +39,6 @@ nav a {
   display: block;
   color: black;
   text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
   font-size: 0.87em;
   font-weight: 800;
   text-align: center;
@@ -45,7 +53,7 @@ nav a {
 }
 
 nav {
-  background: #ffffff;
+  background: var(--white-background);
   position: absolute;
   right: 0px;
   left: 0px;
@@ -58,9 +66,6 @@ nav {
 }
 
 h2 {
-  font-family: "Bungee Inline";
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.8em;
   font-weight: 400;
   text-align: center;
@@ -79,7 +84,7 @@ span {
 }
 
 .font-type {
-  font-family: "Inter";
+  
   line-height: 1.9;
 }
 
@@ -90,13 +95,10 @@ span {
 /*Explore section styling*/
 
 .young-person-styling, .teacher-styling, .scientist-styling {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
   font-size: 0.9em;
   font-weight: 700;
   line-height: 1.9;
-  color: #fff;
+  color: var(--white-text);
   padding-bottom: 50px;
 }
 
@@ -109,25 +111,19 @@ span {
 }
 
 .cta-button {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
   font-size: 0.9em;
   font-weight: 700;
-  background: #434343;
-  color: #fff;
+  background: var(--background-styling);
+  color: var(--white-text);
   border-radius: 10px;
   width: 130px;
 }
 
 .cta-button-two {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
   font-size: 0.9em;
   font-weight: 700;
-  background: #434343;
-  color: #fff;
+  background: var(--background-styling);
+  color: var(--white-text);
   border-radius: 10px;
   padding: 15% 25% 15% 25%;
 }
@@ -174,8 +170,5 @@ span {
 }
 
 .small-font-newsletter {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
   font-size: 3.1vw; 
 }

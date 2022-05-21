@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+    
     /*Images and banners*/    
     
     .top-image {
@@ -19,9 +21,7 @@
     }
 
     h2 {
-        font-family: "Bungee Inline";
-        font-style: normal;
-        font-weight: normal;
+        
         font-size: 1.8em;
         font-weight: 400;
         text-align: center;
@@ -43,7 +43,7 @@
     }
     
     
-    /*Explore section homepage*/
+    /*Explore section*/
     
     .explore-section-events-page img {
         width: 100%;
@@ -88,9 +88,9 @@
         margin-right: 8.9%;    
     }
     
-    /*Events section homepage*/
+    /*Events and exhibitions section*/
     
-    .events-section-events-page {
+    .events-section-events-page, .exhibitions-events-page-one, .exhibitions-events-page-two {
         max-width: 525px;
         margin-left: auto;
         margin-right: auto;
@@ -105,33 +105,20 @@
         }
     
     .events-styling, .exhibitions-styling {
-        background: #434343;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: normal;
+        background: var(--background-styling);
+        
+       
         font-size: 0.9em;
         font-weight: 700;
         line-height: 1.9;
-        color: #fff;
+        color: var(--white-text);
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         padding-top: 1px;
         padding-bottom: 50px;
     }
-    
-    
-    /*Exhibitions section homepage*/
-    
-    .exhibitions-events-page-one, .exhibitions-events-page-two {
-        max-width: 525px;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 35px;
-    }
-    
+     
     /*Center text in explore paragraphs home*/
     
     .center-paragraph-one {
@@ -169,12 +156,16 @@
     }
      
     a {
-        color: #fff;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: normal;
+        color: var(--white-text);
+        
+       
         font-weight: 400;
         font-size: 3.3vw;
+    }
+
+    .font-size-links {
+        font-weight: 700;
+        font-size: 3.7vw;
     }
 
     /*Newsletter*/

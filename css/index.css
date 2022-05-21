@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 .welcome-text-two {
     display: none;
 }
@@ -18,7 +20,6 @@
 }
 
 .headline {
-    font-family: "Bungee Inline";
     font-style: normal;
     font-weight: normal;
     font-size: 1.775em;
@@ -60,15 +61,15 @@
 
 .grey-text-box, .grey-text-box-two {
     margin-top: 0px;
-    font-family: "Inter";
+    
     font-style: normal;
     font-weight: normal;
     font-size: 0.9em;
     font-weight: 700;
     line-height: 1.9;
-    color: #fff;
+    color: var(--white-text);
     padding: 44px 15px 44px 28px;
-    background: #434343;
+    background: var(--background-styling);
     text-align: left;
     max-width: 482px;
     margin-left: auto;
@@ -77,17 +78,17 @@
 
 .visit-info-grid {
     display: grid;
-    background: #434343;
+    background: var(--background-styling);
 }
 
 .visit-info-one {
-    font-family: "Inter";
+    
     font-style: normal;
     font-weight: normal;
     font-size: 0.75em;
     font-weight: 400;
     line-height: 1.9;
-    color: #fff;
+    color: var(--white-text);
     padding: 44px 15px 0px 28px;
     margin-bottom: 10px;
     display: grid;
@@ -98,13 +99,13 @@
 }
 
 .visit-info-two {
-    font-family: "Inter";
+    
     font-style: normal;
     font-weight: normal;
     font-size: 0.75em;
     font-weight: 400;
     line-height: 1.9;
-    color: #fff;
+    color: var(--white-text);
     padding: 44px 15px 44px 28px;
     display: grid;
     grid-template-columns: 64% 40%;
@@ -130,7 +131,7 @@ h3 {
 
 .learn-more-button, .learn-more-button-two {
     font-size: 1.1em;    
-    color: #fff;
+    color: var(--white-text);
     text-decoration: none;
     padding: 7.5px 20px;
     border-style: solid;
@@ -218,14 +219,14 @@ h3 {
     }
 
 .events-styling, .exhibitions-styling {
-    background: #434343;
-    font-family: "Inter";
+    background: var(--background-styling);
+   
     font-style: normal;
     font-weight: normal;
     font-size: 0.9em;
     font-weight: 700;
     line-height: 1.9;
-    color: #fff;
+    color: var(--white-text);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
