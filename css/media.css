@@ -73,16 +73,14 @@
     /*Logo/menu bar*/
 
      .container-one {
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
     /*Visit info homepage*/
 
     .visit-info-grid {
         max-width: 525px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
     .grey-text-box {
         font-size: 1.31em;
@@ -196,8 +194,7 @@
         display: block;
         width: 100%;
         max-width: 1066px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
     /*Welcome message homepage*/
@@ -208,8 +205,7 @@
     }
 
     .padding-grey-text-box {
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         height: 235px;
         max-width: 1066px;
         padding-top: 15px;
@@ -280,27 +276,27 @@
     }
     
     .events-section-home {
-    background-image: url("../images/chemical.svg");
+        background-image: url("../images/chemical.svg");
     }
 
     .exhibitions-section-home {
-    background-image: url("../images/computer.svg");
+        background-image: url("../images/computer.svg");
     }
 
     .explore-section-home, .events-section-home {
-    background-size: 230px;
-    background-attachment: sticky;
-    background-position-y: 83%;
-    background-position-x: 88%;
-    background-repeat: no-repeat;
+        background-size: 230px;
+        background-attachment: sticky;
+        background-position-y: 83%;
+        background-position-x: 88%;
+        background-repeat: no-repeat;
     }
 
     .exhibitions-section-home {
-    background-size: 330px;
-    background-attachment: sticky;
-    background-position-y: 83%;
-    background-position-x: 95%;
-    background-repeat: no-repeat;
+        background-size: 330px;
+        background-attachment: sticky;
+        background-position-y: 83%;
+        background-position-x: 95%;
+        background-repeat: no-repeat;
     }
 
     /*Events and exhbitions page*/
@@ -328,7 +324,7 @@
  
     .teacher-styling {
         min-height: 1px;
-  }
+    }
 }
 
 @media only screen and (min-width: 1066px) {
@@ -351,7 +347,7 @@
   }
 
   .padding-top {
-      padding-top: 1.5px;
+    padding-top: 1.5px;
   }
 
   nav a {
@@ -366,47 +362,47 @@
 
   .container-one {
     max-width: 1365px;
-}
+  }
 
   /*Banner images*/
 
-    .banner-mobile-two {
-        display: none;
-    }
+  .banner-mobile-two {
+    display: none;
+  }
 
-    .banner-desktop-two {
-        display: block;
-    }
+  .banner-desktop-two {
+    display: block;
+  }
 
-/*Explore section*/
+  /*Explore section*/
     
-   .explore-section-home, .events-section-home, .exhibitions-section-home  {
-       grid-template-columns: repeat(3, 1fr);
-       max-width: 1066px;
-   }
+  .explore-section-home, .events-section-home, .exhibitions-section-home  {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1066px;
+  }
 
-     /*Background icons/images*/
+  /*Background icons/images*/
 
-     .explore-section-home, .events-section-home, .exhibitions-section-home {
-         background-image: none;
-     }
+  .explore-section-home, .events-section-home, .exhibitions-section-home {
+    background-image: none;
+  }
 
-     /*Events and exhibitions sections homepage*/
+  /*Events and exhibitions sections homepage*/
 
-     .min-height-paragraph, .min-height-paragraph-two {
+  .min-height-paragraph, .min-height-paragraph-two {
         min-height: 381px;
-     }     
+  }     
 }
 
 @media only screen and (min-width: 1366px) {
  
-.grey-text-box-two {
-    width: 502px;
-    padding-top: 72px;
-    padding-bottom: 69px;
-    padding-right: 28px;
-    margin: 0px;
-}
+    .grey-text-box-two {
+        width: 502px;
+        padding-top: 72px;
+        padding-bottom: 69px;
+        padding-right: 28px;
+        margin: 0px;
+    }
 
     /*Headline section homepage*/
 
@@ -419,8 +415,7 @@
         display: grid;
         grid-template-columns: 17% 63% 17%;
         background: var(--headline-background);
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
     .margin-left {
@@ -438,7 +433,7 @@
         width: 100%;
     }
 
-   /*Banner images homepage*/
+/*Banner images homepage*/
 
     .banner-mobile {
         display: none;
@@ -450,8 +445,7 @@
 
     .banner-desktop {
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         display: block;
         margin-bottom: 40px;
     }
@@ -532,11 +526,6 @@
         font-size: 0.75em;
     }
 
-    .center-paragraph-three {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .learn-more-button-two {
     font-size: 0.875em;
     }
@@ -560,8 +549,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         max-width: 1366px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         margin-top: 10px;
     }
 
@@ -602,13 +590,13 @@
         height: 300px;
     }
 
-     /*Events and exhibitions sections homepage*/
+    /*Events and exhibitions sections homepage*/
 
-     .min-height-paragraph-two {
+    .min-height-paragraph-two {
         min-height: 170px;
-     } 
+    } 
 
-     .font-increase-homepage {
+    .font-increase-homepage {
         font-size: 0.9em;
     }
 
@@ -620,7 +608,7 @@
 
     /*Exhibitions section homepage*/
 
-      .exhibitions-section-home {
+    .exhibitions-section-home {
         max-width: 1366px;
         grid-template-columns: repeat(3, 1fr);
         gap: 60px;
@@ -657,9 +645,9 @@
         font-size: 1.1em;
     }
 
-      /*Events and exhbitions page*/
+    /*Events and exhbitions page*/
 
-      .events-section-events-page {
+    .events-section-events-page {
         grid-template-columns: repeat(3, 350px);
         justify-content: center;
     }
@@ -702,7 +690,6 @@
         border-width: 1px;
     }
 
-    
     .height-evolution-paragraph {
         height: 287px;
     }
@@ -717,16 +704,16 @@
 
     /*Contact form*/
 
-      label {
-          width: 245px;
-      }
-      
+    label {
+        width: 245px;
+    }
+    
     .grey-background {
     width: 350px;
     margin-top: 9px;
     margin-bottom: 9px;
     }
-     
+    
     .max-width-contact {
         max-width: 560px;
     }
@@ -820,7 +807,7 @@
 
     .small-font-newsletter {
         font-size: 0.8em; 
-      }
+    }
 
     .newsletter-sub-grid-one {
         display: grid;
@@ -828,7 +815,7 @@
         grid-template-columns: 1fr;
         max-width: 550px;
         margin-bottom: 5px;
-      }
+    }
 
     .newsletter-sub-grid-two {
         display: grid;
@@ -836,7 +823,7 @@
         grid-template-columns: 1fr 1fr;
         margin-top: 90px;
         max-width: 360px;
-      }
+    }
 
     .h2-top-margin {
         margin-top: 47px;

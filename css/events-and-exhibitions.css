@@ -4,8 +4,7 @@
     
     .top-image {
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         display: block;
     }
 
@@ -21,7 +20,6 @@
     }
 
     h2 {
-        
         font-size: 1.8em;
         font-weight: 400;
         text-align: center;
@@ -47,21 +45,20 @@
     
     .explore-section-events-page img {
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         max-width: 525px;
     }
     
     .image-border-one {
-        border-color: #03648E;
+        border-color: var(--young-person-color);
     }
     
     .image-border-two {
-        border-color: #507B00;
+        border-color: var(--teacher-color);
     }
     
     .image-border-three {
-        border-color: #B16220;
+        border-color: var(--scientist-color);
     }
     
     .image-border-one, .image-border-two, .image-border-three {
@@ -70,16 +67,15 @@
     }
     
     .young-person-styling {
-        background: #03648E;
-       
+        background: var(--young-person-color);
     }
     
     .teacher-styling {
-        background: #507B00;
+        background: var(--teacher-color);
     }
     
     .scientist-styling {
-        background: #B16220;
+        background: var(--scientist-color);
     }
     
     .margin {
@@ -92,58 +88,42 @@
     
     .events-section-events-page, .exhibitions-events-page-one, .exhibitions-events-page-two {
         max-width: 525px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 35px;
     }
     
-        .image-width {
+    .image-width {
         width: 100%;
         display: block;
-        }
+    }
     
     .events-styling, .exhibitions-styling {
         background: var(--background-styling);
-        
-       
         font-size: 0.9em;
         font-weight: 700;
         line-height: 1.9;
         color: var(--white-text);
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         padding-top: 1px;
         padding-bottom: 50px;
     }
      
-    /*Center text in explore paragraphs home*/
+    /*Center text in explore paragraphs*/
     
-    .center-paragraph-one {
-        margin-left: auto;
-        margin-right: auto;
+    .center-paragraph-one, .center-paragraph-two, .center-paragraph-three {
+        margin: auto;
     }
-    
-    .center-paragraph-two {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .center-paragraph-three {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
+        
     .text-align {
         text-align: left;
     }
     .explore-section-events-page {
         text-align: center;
         max-width: 525px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 35px;
@@ -157,8 +137,6 @@
      
     a {
         color: var(--white-text);
-        
-       
         font-weight: 400;
         font-size: 3.3vw;
     }
@@ -170,6 +148,6 @@
 
     /*Newsletter*/
 
-.h2-top-margin {
-    margin-bottom: 30px;
-}
+    .h2-top-margin {
+        margin-bottom: 30px;
+    }

@@ -6,8 +6,7 @@
 .banner-mobile {
     width: 100%;
     max-width: 525px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
 }
 
@@ -20,8 +19,6 @@
 }
 
 .headline {
-    font-style: normal;
-    font-weight: normal;
     font-size: 1.775em;
     font-weight: 400;
     line-height: 1.5;
@@ -61,9 +58,6 @@
 
 .grey-text-box, .grey-text-box-two {
     margin-top: 0px;
-    
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.9em;
     font-weight: 700;
     line-height: 1.9;
@@ -72,8 +66,7 @@
     background: var(--background-styling);
     text-align: left;
     max-width: 482px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .visit-info-grid {
@@ -82,9 +75,6 @@
 }
 
 .visit-info-one {
-    
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.75em;
     font-weight: 400;
     line-height: 1.9;
@@ -99,9 +89,6 @@
 }
 
 .visit-info-two {
-    
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.75em;
     font-weight: 400;
     line-height: 1.9;
@@ -112,8 +99,7 @@
     justify-content: center;
     gap: 20px;
     max-width: 685px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .text-decoration {
@@ -161,21 +147,20 @@ h3 {
 
 .explore-section-home img {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 525px;
 }
 
 .image-border-one {
-    border-color: #03648E;
+    border-color: var(--young-person-color);
 }
 
 .image-border-two {
-    border-color: #507B00;
+    border-color: var(--teacher-color);
 }
 
 .image-border-three {
-    border-color: #B16220;
+    border-color: var(--scientist-color);
 }
 
 .image-border-one, .image-border-two, .image-border-three {
@@ -184,16 +169,16 @@ h3 {
 }
 
 .young-person-styling {
-    background: #03648E;
+    background: var(--young-person-color);
    
 }
 
 .teacher-styling {
-    background: #507B00;
+    background: var(--teacher-color);
 }
 
 .scientist-styling {
-    background: #B16220;
+    background: var(--scientist-color);
 }
 
 .margin {
@@ -206,41 +191,34 @@ h3 {
 
 .events-section-home {
     max-width: 525px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 35px;
 }
 
-    .image-width {
+.image-width {
     width: 100%;
     display: block;
-    }
+}
 
 .events-styling, .exhibitions-styling {
     background: var(--background-styling);
-   
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.9em;
     font-weight: 700;
     line-height: 1.9;
     color: var(--white-text);
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-top: 1px;
     padding-bottom: 50px;
 }
-
 
 /*Exhibitions section homepage*/
 
 .exhibitions-section-home {
     max-width: 525px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 35px;
@@ -249,20 +227,17 @@ h3 {
 /*Center text in explore paragraphs home*/
 
 .center-paragraph-one {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 507px;
 }
 
 .center-paragraph-two {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 499px;
 }
 
 .center-paragraph-three {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 482px;
 }
 
@@ -272,8 +247,7 @@ h3 {
 .explore-section-home {
     text-align: center;
     max-width: 525px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 35px;
