@@ -123,7 +123,7 @@
     
     /*Exhibitions section homepage*/
     
-    .exhibitions-section-events-page {
+    .exhibitions-events-page-one, .exhibitions-events-page-two {
         max-width: 525px;
         margin-left: auto;
         margin-right: auto;
@@ -176,3 +176,9 @@
         font-weight: 400;
         font-size: 3.3vw;
     }
+
+    /*Newsletter*/
+
+.h2-top-margin {
+    margin-bottom: 30px;
+}

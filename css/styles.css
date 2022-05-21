@@ -168,3 +168,14 @@ span {
   background: #EDEDED;
   width: 100%;
 }
+
+.newsletter-margin-top {
+  margin-top: 100px
+}
+
+.small-font-newsletter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.1vw; 
+}

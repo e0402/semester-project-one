@@ -148,6 +148,10 @@
         font-size: 1.35em;
     }
 
+    .small-font-newsletter {
+        font-size: 0.76em; 
+      }
+
     .newsletter-input {
         height: 55px;
     }
@@ -296,7 +300,7 @@
 
     /*Events and exhbitions page*/
 
-    .events-section-events-page, .exhibitions-section-events-page {
+    .events-section-events-page, .exhibitions-events-page-one, .exhibitions-events-page-two {
         max-width: 768px;
         display: grid;
         grid-template-columns: 1fr;
@@ -317,10 +321,6 @@
         margin-bottom: 180px;
         justify-content: center;
     }
-
-     /*Newsletter*/
-
-   
 }
 @media only screen and (min-width: 825px) {
  
@@ -607,7 +607,6 @@
         height: 300px;
     }
 
-    
      /*Events and exhibitions sections homepage*/
 
      .min-height-paragraph-two {
@@ -665,12 +664,56 @@
 
       /*Events and exhbitions page*/
 
-      .events-section-events-page, .exhibitions-section-events-page {
-        grid-template-columns: repeat(3, 1fr);
+      .events-section-events-page {
+        grid-template-columns: repeat(3, 350px);
+        justify-content: center;
     }
 
     .explore-section-events-page {
         grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 800px;
+    }
+
+    .exhibitions-events-page-one {
+        grid-template-columns: repeat(2, 526px);
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .exhibitions-events-page-two {
+        grid-template-columns: repeat(3, 342px);
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+
+    .events-paragraph-height {
+        height: 600px;
+    }
+
+    .events-page-height-one {
+        height: 770px;
+    }
+
+    .events-page-height-two {
+        height: 425px;
+    }
+
+    .events-page-height-three {
+        height: 330px;
+    }
+
+    .border-one-events-page, .border-two-events-page, .border-three-events-page {
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    
+    .height-evolution-paragraph {
+        height: 287px;
+    }
+
+    .calendar-icon-width {
+        width: 39px;
     }
 
     /*Contact form*/
@@ -692,6 +735,10 @@
     .margin-top-contact {
         margin-top: 22px;
         height: 928px;
+    }
+
+    .larger-font-events-page {
+        font-size: 1.2em;
     }
 
     /*Background images/icons*/
@@ -772,11 +819,16 @@
         justify-content: center;
     }
 
+    .small-font-newsletter {
+        font-size: 0.8em; 
+      }
+
     .newsletter-sub-grid-one {
         display: grid;
         gap: 0px;
         grid-template-columns: 1fr;
-        min-height: 0px;
+        max-width: 550px;
+        margin-bottom: 5px;
       }
 
     .newsletter-sub-grid-two {
@@ -784,10 +836,11 @@
         gap: 0px;
         grid-template-columns: 1fr 1fr;
         margin-top: 90px;
+        max-width: 360px;
       }
 
     .h2-top-margin {
-        margin-top: 50px;
+        margin-top: 47px;
         margin-bottom: 0px;
         line-height: 1.5;
     }

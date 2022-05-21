@@ -59,26 +59,13 @@ img {
     line-height: 2.2em;
   }
   
-  
   textarea {
     height: 220px;
     width: 100%;
     background: #F5F5F5;
   }
 
-  .submit-button {
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 0.9em;
-      font-weight: 700;
-      background: #434343;
-      color: #fff;
-      border-radius: 10px;
-      width: 130px;
-  }
-
-  input {
+    main input {
       height: 50px;
       width: 100%;
   }
@@ -110,4 +97,10 @@ img {
 .margin-top-contact {
     height: 970px;
 }
+
+.cta-button-two {
+    width: none;
+}
+
+
 
