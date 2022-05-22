@@ -160,6 +160,22 @@
     .newsletter-input {
         height: 55px;
     }
+
+    /*Footer*/
+
+    .footer-sub-grid-two {
+        font-size: 1.05em;
+    }
+    
+    .footer-text-grid {
+        font-size: 1.22em;
+    }
+      
+    .footer-icons-grid {
+        font-size: 1.2em;
+        gap: 50px;
+    }
+      
 }
 
 @media only screen and (min-width: 729px) {
@@ -390,8 +406,32 @@
   /*Events and exhibitions sections homepage*/
 
   .min-height-paragraph, .min-height-paragraph-two {
-        min-height: 381px;
-  }     
+    min-height: 381px;
+  }
+  
+   /*Footer*/
+    
+  .footer-sub-grid-one {
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: center;
+  }
+
+  .footer-sub-grid-two {
+    font-size: 0.9em;
+}
+  
+  .footer-text-grid {
+    font-size: 1em;  
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+  .footer-icons-grid {
+    font-size: 0.9em;  
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -835,4 +875,28 @@
         height: 42px;
         width: 260px;
     }
+
+       /*Footer*/
+    
+    .footer-sub-grid-one {
+        grid-template-columns: 60% 40%;
+        gap: 80px;
+    }
+
+    .footer-sub-grid-two {
+        font-size: 0.85em;
+    }
+    
+    .footer-text-grid {
+        font-size: 0.8em;  
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+    }
+    
+    .footer-icons-grid {
+        font-size: 0.6em;  
+        grid-template-columns: repeat(8, 1fr);
+        gap: 20px;
+    }
+   
 }
