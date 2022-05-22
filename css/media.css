@@ -694,7 +694,7 @@
 
     .explore-section-events-page {
         grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 800px;
+        margin-bottom: 170px;
     }
 
     .exhibitions-events-page-one {
@@ -725,9 +725,16 @@
         height: 330px;
     }
 
-    .border-one-events-page, .border-two-events-page, .border-three-events-page {
-        border-style: solid;
-        border-width: 1px;
+    .border-one-events-page {
+        height: 1079px;
+    }
+
+    .border-two-events-page {
+        height: 733px;
+    }
+
+    .border-three-events-page {
+        height: 639px;
     }
 
     .height-evolution-paragraph {
@@ -741,6 +748,26 @@
     .font-size-links {
         font-size: 0.97em;
     }
+
+    /*Events and exhibitions page, background images*/
+
+    .background-bulb {
+        background-image: url("../images/brain-light-bulb.svg");
+        background-attachment: sticky;
+        background-repeat: no-repeat;
+        background-size: 240px;
+        background-position-x: 85.5%;
+        background-position-y: 54%;
+    }
+
+    .background-bottle {
+        background-image: url("../images/chemical.svg");
+        background-attachment: sticky;
+        background-repeat: no-repeat;
+        background-size: 245px;
+        background-position-x: 16%;
+        background-position-y: 87.7%;
+        }
 
     /*Contact form*/
 
@@ -771,25 +798,30 @@
 
     .horizontal-lines {
         background-image: url("../images/horizontal-line.svg"), url("../images/horizontal-line.svg");
-        background-size: 1366px;
         background-attachment: sticky;
-        background-position-y: 39%, 70.4%;
+        background-size: 1366px;
+        background-position-y: 32.9%, 58%;
         background-position-x: 50%;
         background-repeat: no-repeat;
     }
 
-    .vertical-line-one, .vertical-line-two {
+    .vertical-line-one, .vertical-line-two, .vertical-line-three {
         background-image: url("../images/mid-line.svg");
         background-attachment: sticky;
         background-repeat: no-repeat;
     }
 
     .vertical-line-one {
-        background-position-y: 65%;
+        background-position-y: 19%;
         background-position-x: 50%;
     }
 
     .vertical-line-two {
+        background-position-y: 147%;
+        background-position-x: 50%;
+    }
+
+    .vertical-line-three {
         background-position-y: 147%;
         background-position-x: 50%;
     }
@@ -802,7 +834,7 @@
         background-image: url("../images/gift-icon.svg");
         background-attachment: sticky;
         background-size: 140px;
-        background-position-y: 89%;
+        background-position-y: 60%;
         background-position-x: 37%;
         background-repeat: no-repeat;
     }
@@ -898,5 +930,4 @@
         grid-template-columns: repeat(8, 1fr);
         gap: 20px;
     }
-   
 }

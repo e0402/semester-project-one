@@ -48,24 +48,7 @@
         margin: auto;
         max-width: 525px;
     }
-    
-    .image-border-one {
-        border-color: var(--young-person-color);
-    }
-    
-    .image-border-two {
-        border-color: var(--teacher-color);
-    }
-    
-    .image-border-three {
-        border-color: var(--scientist-color);
-    }
-    
-    .image-border-one, .image-border-two, .image-border-three {
-        border-style: solid;
-        border-width: 1px;
-    }
-    
+     
     .young-person-styling {
         background: var(--young-person-color);
     }

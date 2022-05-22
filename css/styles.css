@@ -102,6 +102,23 @@ span {
   padding-bottom: 50px;
 }
 
+.image-border-one, .border-one-events-page {
+  border-color: var(--young-person-color);
+}
+
+.image-border-two, .border-two-events-page {
+  border-color: var(--teacher-color);
+}
+
+.image-border-three, .border-three-events-page {
+  border-color: var(--scientist-color);
+}
+
+.image-border-one, .image-border-two, .image-border-three, .border-one-events-page, .border-two-events-page, .border-three-events-page {
+  border-style: solid;
+  border-width: 1px;
+}
+
 /*Newsletter*/
 
 .newsletter-icon {
